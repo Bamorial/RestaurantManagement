@@ -41,7 +41,7 @@
         Cantitate
       </div>
     </div>
-    <div class="grid grid-cols-2 ml-10 mt-10 font-mono  text-lg"  v-for="order in selected.order">
+    <div class="grid grid-cols-2 ml-10 mt-10 font-mono mb-10  text-lg"  v-for="order in selected.order">
       <div>
          {{ order.ordName }}
       </div>
